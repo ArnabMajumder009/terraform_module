@@ -1,8 +1,8 @@
 resource "aws_vpc" "myvpc" {
   cidr_block = var.mycidr
-  tags = {
-    Name = local.tag
-  }
+  #tags = {
+   # Name = local.tag
+  #}
 }
 
 output "vpcid" {

@@ -1,3 +1,3 @@
 locals {
-  tag = "myvpc"
+#  tag = "myvpc"
 }
